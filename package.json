@@ -1,0 +1,16 @@
+{
+  "name": "biblioweb",
+  "version": "1.0.0",
+  "description": "Sistema de Biblioteca desenvolvido a fim de obter nota para Projeto Integador - ADS UP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo, Bianca",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.5"
+  }
+}
