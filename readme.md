@@ -1,4 +1,4 @@
-# Projeto Integrador
+# Projeto Sistema de Biblioteca - Web
 Projeto simples de uma Biblioteca desenvolvido a fim de obter nota para a avaliação bimestral das disciplinas de Desenvolvimento Web Basico e Topicos Especiais de Sistema do curso de ADS da UP
 
 # O que será avaliado: 
@@ -11,7 +11,6 @@ Obrigatoriamente estilizar com Bootstrap;
 Possuir validações front end e back end além de tratamento de erros e validações.
 
 # Função da aplicação:
-
 A aplicação permite a um super usuário cadastrar novos usuários de nível de acesso inferior, pode tambem cadastrar itens no acervo da biblioteca e realizar empréstimos, devoluções; Bem como obter relatorios de emprestimos, usuarios bloqueados para emprestimos
 
 # Funcionalidades discutidas para desenvolvimento:
