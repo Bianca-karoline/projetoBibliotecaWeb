@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Usuarios</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!--
+        ta zuado arrumar
+    -->
+  <link rel="shortcut icon" href="/views/static/img/book-fav-icon.png" type="image/x-icon" />
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Gerenciar acervo da biblioteca</h1>
+    <!--
+        //input de busca copiada
+    -->
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="TITULO" aria-describedby="button-addon2">
+      <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Buscar</button>
+    </div>
+  </div>
+  <div>
+    <table class="table">
+      <thead>
+        <tr>
+
+          <th scope="col">ID item</th>
+          <th scope="col">Titulo</th>
+          <th scope="col">Autor</th>
+          <th scope="col">Tipo</th>
+          <th scope="col">Exemplares</th>
+          <th scope="col">Editar</th>
+          <th scope="col">Deletar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Cadastrar um item no acervo</h2>
+
+  <div class="row">
+    <!--
+        //centralizar col
+      -->
+    <div class="col">
+      <!--
+        //form-control -> form
+        //form-label -> label
+        //form-control -> input
+      -->
+      <form action="" method="POST">
+
+        <!--
+          //
+        -->
+        <div class="mt-3">
+          <label class="form-label" for="titulo">titulo</label>
+          <input class="form-control" type="text" name="titulo" id="titulo" required>
+        </div>
+
+        <!--
+            //
+        -->
+        <div class="mt-3">
+          <label class="form-label" for="autor">autor</label>
+          <input class="form-control" type="text" name="autor" id="autor" required>
+        </div>
+
+        <!--
+          //
+        -->
+        <div class="mt-3">
+          <label class="form-label" for="tipo">tipo</label>
+          <input class="form-control" type="text" name="tipo" id="tipo" required>
+        </div>
+
+        <!--
+          //email validar <= 150 char / == tipo@email.com / = char / = char especiais / = numeros  #exemplo.2@email.com
+        -->
+        <div class="mt-3">
+          <label class="form-label" for="qtdExemplares">Quantidade de exemplares</label>
+          <input class="form-control" type="text" name="qtdExemplares" id="qtdExemplares" required>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
